@@ -154,7 +154,7 @@ section > div {
 .nav-item-line {
   height: 0.3rem;
   background-color: transparent;
-  width: 1.8rem;
+  width: 3rem;
   position: relative;
   margin-bottom: 0.5rem;
   align-self: flex-end;
@@ -163,7 +163,7 @@ section > div {
 .nav-item-line-container {
   display: flex;
   position: relative;
-  bottom: 0.5rem;
+  bottom: 0.9rem;
 }
 
 nav ul {
@@ -239,7 +239,7 @@ nav ul {
 }
 
 /*TODO - new*/
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
   #intro-txt {
     margin-top: 1.5rem;
     justify-content: center;
@@ -800,7 +800,7 @@ button:focus {
   width: 246px;
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 768px) {
   #social-media, #copyright p {
     text-align: center;
   }
