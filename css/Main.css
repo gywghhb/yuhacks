@@ -227,7 +227,6 @@ nav ul {
 #intro-video > iframe {
   height: 40vh;
   max-width: 36rem;
-  /*transition-duration: 300ms;*/
   box-shadow: 0 6px 32px #b4b4b4;
 }
 
@@ -309,6 +308,7 @@ button:focus {
   /*width: 210px;*/
   width: 0;
   z-index: 5;
+  -webkit-transition: 400ms ease-out;
   transition: 400ms ease-out;
   float: left;
 }
@@ -417,7 +417,6 @@ button:focus {
 }
 
 #schedule tr {
-  transition-duration: 300ms;
   border: 1px solid #ccc;
   border-top: 0;
   border-left: 0;
@@ -534,6 +533,7 @@ button:focus {
   position: absolute;
   width: 0.7rem;
   height: 2.5rem;
+  -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
 }
 
@@ -645,6 +645,7 @@ button:focus {
   font-weight: 500;
   background-color: rgba(0,0,0,0);
   text-transform: uppercase;
+  -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
   width: fit-content;
   background-color: #fff;
@@ -681,7 +682,6 @@ button:focus {
 
 .textbox-text {
   padding: 12px;
-  /*border: 1px solid #b4b4b4;*/
   word-wrap: break-word;
   width: calc(100% - 1.4rem);
   display: flex;
@@ -728,7 +728,6 @@ button:focus {
 
   .textbox-text {
     padding: 12px;
-    border: 1px solid #7d7d7d;
     word-wrap: break-word;
     width: 100% ;
   }
