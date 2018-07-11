@@ -102,7 +102,7 @@ a {
 }
 
 a:hover {
-  /*color: #3FE7B3;*/
+  color: #3FE7B3;
   /*text-underline: #3FE7B3;*/
   text-decoration: underline;
 }
@@ -153,8 +153,8 @@ section > div {
 
 .nav-item-line {
   height: 0.3rem;
-  background-color: red;
-  width: 3rem;
+  background-color: transparent;
+  width: 1.8rem;
   position: relative;
   margin-bottom: 0.5rem;
   align-self: flex-end;
@@ -177,12 +177,13 @@ nav ul {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1.5rem;
-  color: #525252;
+  color: #b4b4b4;
   width: fit-content;
   align-items: flex-end;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
 }
 
-/*Tom Nav*/
 .navbar {
   z-index: 99;
 }
@@ -405,14 +406,6 @@ button:focus {
   margin-top: 1.3rem;
 }
 
-#schedule td {
-  padding: 0.5rem 0 0.5rem 1rem;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
 #schedule tr {
   border: 1px solid #ccc;
   border-top: 0;
@@ -423,6 +416,20 @@ button:focus {
 #schedule tr:last-child {
   border: 0;
 }
+
+#schedule td {
+  padding: 0.5rem 0 0.5rem 1rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#schedule tr td:first-child {
+  width: 102px;
+  text-align: right;
+}
+
 
 #schedule sup {
   text-transform: lowercase;
@@ -446,6 +453,8 @@ button:focus {
 
 .sponsor-image {
   display: flex;
+  width: fit-content;
+  transition-duration: 300ms;
 }
 
 .sponsor-image img {
@@ -615,6 +624,14 @@ button:focus {
 .purple-text {color: #a72b8e;}
 .green-text {color: #11a84e;}
 .yellow-text {color: #fbab40;}
+
+.magenta-text-hover:hover {color: #EC258C;}
+.indigo-text-hover:hover {color: #2d4087;}
+.blue-text-hover:hover {color: #23aae2;}
+.orange-text-hover:hover {color: #f15c31;}
+.purple-text-hover:hover {color: #a72b8e;}
+.green-text-hover:hover {color: #11a84e;}
+.yellow-text-hover:hover {color: #fbab40;}
 
 .btn {
   padding: 10px;
