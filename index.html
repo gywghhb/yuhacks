@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="YokUHacks">
+    <meta name="description" content="Canada's first ever multidisciplinary hackathon">
+    <meta name="keywords" content="yorkuhacks,yorku hacks,hackathon, yorku hackathon">
+    <meta property="og:url" content="https://yorkuhacks.com">
+    <meta property="og:type" content="organization">
+    <meta property="og:title" content="YorkUHacks 2018">
+    <meta property="og:site_name" content="YorkUHacks">
+    <meta property="og:description" content="Canada's first ever multidisciplinary hackathon">
+    <!-- <meta property="og:image" content="./res/lion.png"> -->
+    <!-- <link rel="icon" href="./res/lion.png"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/Main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <title>YorkU Hacks 2018</title>
+</head>
+<body>
+
+
+
+
+<!-- HEADER -->
+<section id="header-section">
+    <!-- NAVBAR -->
+    <!--TODO - new-->
+    <div class="container-fluid" id="nav-container">
+        <nav class="navbar navbar-toggleable-sm navbar-light">
+            <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <a href="#" class="navbar-left" id="logo"><img src="./res/logo.png"></a> <!--TODO - new-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item-line-container">
+                        <div class="nav-item-line magenta"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Events</a>
+                    </li>
+                    <li class="nav-item-line-container">
+                        <div class="nav-item-line orange"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsor-section">Sponsors</a>
+                    </li>
+                    <li class="nav-item-line-container">
+                        <div class="nav-item-line blue"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq-section">FAQ</a>
+                    </li>
+                    <li class="nav-item-line-container">
+                        <div class="nav-item-line green"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer-section">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container" id="intro-container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7" id="intro-video">
+                <iframe width="100%" src="https://www.youtube.com/embed/25eFrNBZOIU" frameborder="0"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5" id="intro-txt">
+                <h1>Build with <br>the next 300 </h1>
+                <p>Toronto, Canada · September 22<sup>nd</sup> - 23<sup>rd</sup></p>
+                <button class="btn" id="join-us-button" onclick="showForm()">join us</button>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mailing-form-header">
+                    <div id="mc_embed_signup">
+                        <form action="https://yorkuhacks.us18.list-manage.com/subscribe/post?u=34194b3cf76190cc3093ffda4&amp;id=375536d856" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Subscribe to our mailing list">
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_34194b3cf76190cc3093ffda4_375536d856" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" id="subscribe-button" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="towers">
+        <picture>
+            <source media="(max-width: 760px)"
+                    srcset="./res/hero-sm.png">
+            <source media="(max-width: 1024px)"
+                    srcset="./res/hero-md.png">
+            <img alt="colourful Toronto skyline" src="./res/hero.png">
+        </picture>
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                <h2>
+                    <u class="magenta-underline">a fe</u>stival of ideas
+                </h2>
+                <p>
+                    <span class="magenta-text">YorkU Hacks isn't just another hackathon.</span> It is a festival to celebrate innovative ideas. We are uniting 300 of the brightest minds from diverse disciplines to tackle some of the global challenges. You’ll plunge into your social conscience and will tackle the problems that plague our world today. Be it climate change, clean water or cyber security, we aim to empower the next 300 to see the opportunities in problems.
+                </p>
+                <p>
+                    In 24 hours time, you will have a unique opportunity to learn and create. You will explore your passions and learn in ways that go beyond the technical. By the end of the hackathon you will end up developing, testing and deploying your ideas created from scratch.
+                </p>
+            </div>
+            <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 image">
+                <img alt="image goes here"">
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<section id="explore-section">
+    <div id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                    <h2><u class="blue-underline">exp</u>lore</h2>
+                    <p>
+                        <span class="blue-text">Explore not only your ideas, but your passions.</span> Hacking is more than just technological; it is creative problem solving. At YorkU Hacks, we value diversity in thought which encourages discussion and dissemination of extraordinary ideas. We will foster your curiosity and let you explore all the undiscovered avenues of creativity.
+                    </p>
+                    <p>
+                        Enveloped by local art, nature, and culture, you will recreate ideas and unmask the connections between the things that we take for granted. Exploring your passions in such a unique way will lead you to the different avenues at this year’s YorkU Hacks.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="disciplin">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 textbox-container">
+                            <div class="textbox-title">
+                                <h4>code</h4>
+                                <div class="h4-decor orange"></div>
+                            </div>
+                            <div class="textbox">
+                                <div class="textbox-text">
+                                    <p>
+                                        The quintessential hacker experience! Indulge in the new technologies and digest new tricks and skills from our various workshops that cover Machine Learning and App Development and so much more. Hack your way through the weekend as the tech artisan of the bunch.
+                                    </p>
+                                </div>
+                                <div class="textbox-decor grey"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 textbox-container">
+                            <div class="textbox-title">
+                                <h4>design</h4>
+                                <div class="h4-decor purple"></div>
+                            </div>
+                            <div class="textbox">
+                                <div class="textbox-text">
+                                    <p>
+                                        As a designer, you will act as the bridge between the various personas at YUHacks. Intersecting usability, feasibility and viability, you will be the agent for a successful product design. Boost your portfolio with our workshops. Then cap the weekend off with a portfolio that’s been polished by successful designers!
+                                    </p>
+                                </div>
+                                <div class="textbox-decor grey"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 textbox-container">
+                            <div class="textbox-title">
+                                <h4>Venture</h4>
+                                <div class="h4-decor green"></div>
+                            </div>
+                            <div class="textbox">
+                                <div class="textbox-text">
+                                    <p>
+                                        Develop a startup! Explore your passion in entrepreneurship.
+                                        Expand your knowledge with our workshops that focus on Project Management, Business Models and Customer Development Models, just to name a few. Launch your startup, win prizes and maybe even make a sale.
+
+                                    </p>
+                                </div>
+                                <div class="textbox-decor grey"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 textbox-container">
+                            <div class="textbox-title">
+                                <h4>Social <br>Innovation</h4>
+                                <div class="h4-decor indigo"></div>
+                            </div>
+                            <div class="textbox">
+                                <div class="textbox-text">
+                                    <p>
+                                        In order to tackle the challenging problems that we face as a generation, we need the most ambitious and passionate to be thinking about how to solve them.There will be guided workshops for participants to help expand their knowledge in this sector and understand how local solutions can be answers to global problems.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                <h2><u class="green-underline">lea</u>rn + create</h2>
+                <p>
+                    At the heart of a 70 year old Computer Science Department and a five year young Lassonde School of Engineering, we are in a unique position to see groundbreaking researches merging with an era of constant change. YorkU Hacks bridges the gap between students with a passion for learning and inspiring industry leaders with a desire to share.
+                </p>
+                <p>
+                    <span class="green-text">Learning by doing has proven itself to be the most effective ways of imparting knowledge.</span> At YorkU Hacks, we create a space for students to cultivate and to redefine their creative thinking by engaging them practical activties, workshops, and experiences.
+                </p>
+            </div>
+        </div>
+        <div id="schedule" class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h4><span class="blue-underline">saturday 22<sup>nd</sup> sept</span></h4>
+                <table>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>registration starts</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>KICK OFF + BREAKFAST</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM</td>
+                        <td>team formation + hacking starts</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 PM</td>
+                        <td>sponsorship fair starts</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>LUNCH AT THE POND</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td class="indigo-text">AGILE + PROJECT MANAG.</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 PM</td>
+                        <td class="orange-text">MACHINE LEARNING</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM</td>
+                        <td class="green-text">DESIGN THINKING</td>
+                    </tr>
+                    <tr>
+                        <td>6:00 PM</td>
+                        <td class="pink-text">guest panel</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM</td>
+                        <td>pie party</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM</td>
+                        <td class="purple-text">designathon</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 PM</td>
+                        <td>DINNER</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 PM</td>
+                        <td>dance floor</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 AM</td>
+                        <td>post-MIDNIGHT SNACK</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h4><span class="orange-underline">sunday 23<sup>rd</sup> sept</span></h4>
+                <table>
+                    <tr>
+                        <td>8:00 AM</td>
+                        <td>coffee blast</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>breakfast</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>rush hour</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM</td>
+                        <td>hacking ends</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>luncheon</td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>pitch submission</td>
+                    </tr>
+                    <tr>
+                        <td>2:30 PM</td>
+                        <td>final presentation</td>
+                    </tr>
+                    <tr>
+                        <td>3:30 PM</td>
+                        <td>closing ceremony</td>
+                    </tr>
+                    <tr>
+                        <td>4:30 PM</td>
+                        <td>see you next year</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CHANGE -->
+<section id="change-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+                <h2>
+                    <u class="magenta-underline">cha</u>nge
+                </h2>
+                <p>
+                    We are creating a youthful wave of entrepreneurs, artists, developers, designers, and engineers who are ambitious and socially conscious. <span class="magenta-text">We believe positive impacts come from merging uncommon and unique perspectives</span>, and YorkU Hacks is that melting pot.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SPONSOR -->
+<section id="sponsor-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                <h2>
+                    <u class="yellow-underline">spo</u>nsors
+                </h2>
+            </div>
+        </div>
+        <div class="gallery-container">
+            <div class="sponsor-image">
+                <img src="./res/bestlabs-logo.png">
+            </div>
+            <div class="sponsor-image">
+                <img src="./res/fdm-logo.png">
+            </div>
+        </div>
+        <div class="interested">
+            <a href="mailto:hello@yorkuhacks.com?Subject=Hello%20There" class="yellow-text"><p>Interested in sponsoring?</p></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                <h3>
+                    <u class="orange-underline">com</u>munity partners
+                </h3>
+            </div>
+        </div>
+        <div class="row gallery-container">
+            <div class="partner-image">
+                <img src="./res/FoundersBeta%20Logo4.png">
+            </div>
+        </div>
+        <div class="interested">
+            <a href="mailto:hello@yorkuhacks.com?Subject=Hello%20There" class="orange-text"><p>Let's partner up</p></a>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                <h2>
+                    <u class="navy-underline">Fre</u>quently asked questions
+                </h2>
+            </div>
+        </div>
+        <div id="faqs">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="faq-box">
+                    <div class="faq-title">
+                        <div class="faq-decor magenta"></div>
+                        <h4>Can I attend?</h4>
+                    </div>
+                    <p>
+                        As long as you are 18 years of age or older, you are invited to apply to YorkU hacks.
+                    </p>
+                </div>
+                <div class="faq-box">
+                    <div class="faq-title">
+                        <div class="faq-decor green"></div>
+                        <h4>How does registration work?</h4>
+                    </div>
+                    <p>
+                        The registration will be open soon! You can then complete the application and we will get back to you once we've had the chance to review your application. We will update the status of your application once it's being processed.
+                    </p>
+                </div>
+                <div class="faq-box">
+                    <div class="faq-title">
+                        <div class="faq-decor orange"></div>
+                        <h4>What if I don't know how to code?</h4>
+                    </div>
+                    <p>
+                        No problem at all. Hackathon is meant to be a place to pick up new skills and concepts. Ther will be workshops and mentors which will help ease you through the hackathon experience.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="faq-box">
+                    <div class="faq-title">
+                        <div class="faq-decor blue"></div>
+                        <h4>How do I get there?</h4>
+                    </div>
+                    <p>
+                        we are situated at a very easy subway from toronto which is connected
+                        If you live in Toronto or North York, you will have to make your own travel arrangements. Free parking pass will be provided if you choose to drive.
+                    </p>
+                </div>
+                <div class="faq-box">
+                    <div class="faq-title">
+                        <div class="faq-decor purple"></div>
+                        <h4>What should I bring?</h4>
+                    </div>
+                    <p>
+                        It's best to bring your own laptop, even though you can always borrow a laptop from our hardware lab. Make sure to bring a government issued ID. We will email you a list of everything else you might need during this hackathon (eg: toothbrush, sleeping bag, deodorant, etc)
+                    </p>
+                </div>
+                <div class="faq-box">
+                    <div class="faq-title">
+                        <div class="faq-decor navy"></div>
+                        <h4>How does a team work?</h4>
+                    </div>
+                    <p>
+                        Teams consist of 4 to 5 members. If you have your own team you can specify it during the registration process. You can always use our facebook group to find other individuals who might be your potential team members.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<section id="footer-section">
+    <div class="container">
+        <div id="social-media" class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+            <a href="https://www.facebook.com/yorkuhacks/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/yorkuhacks/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/yorku_hacks"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:hello@yorkuhacks.com?Subject=Hello%20There"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div id="mailing-form-footer" class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://yorkuhacks.us18.list-manage.com/subscribe/post?u=34194b3cf76190cc3093ffda4&amp;id=375536d856" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+
+                        <div class="mc-field-group">
+                            <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="subscribe to our mailing list">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_34194b3cf76190cc3093ffda4_375536d856" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" id="subscribe-button" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn"></div>
+                    </div>
+                </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+        </div>
+        <div id="address" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <h5>Bergeron Centre of Engineering Excellence</h5>
+            <!--<p>York University</p>-->
+            <p>11 Arboretum Ln</p>
+            <p>North York, ON M3J 2S5</p>
+            <a href="https://goo.gl/maps/Mw168iz42jN2"><p>Take me there</p></a>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src="./js/Main.js"></script>
+<script src="./js/subscribe.js"></script>
+</body>
+</html>
