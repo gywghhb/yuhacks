@@ -1,12 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|PT+Serif:400,700');
-
 @font-face {
   font-family: FuturaBTMedium;
   src: url(../res/fonts/futura-medium-bt.ttf);
 }
-
-
 
 /* General */
 * {
@@ -103,7 +100,6 @@ a {
 
 a:hover {
   color: #3FE7B3;
-  /*text-underline: #3FE7B3;*/
   text-decoration: underline;
 }
 
@@ -204,7 +200,6 @@ nav ul {
   margin-top: 0;
 }
 
-/*TODO - new*/
 #nav-container {
   margin: 1rem auto 1rem auto;
 }
@@ -238,7 +233,6 @@ nav ul {
   margin-bottom: 1.5rem;
 }
 
-/*TODO - new*/
 @media only screen and (max-width : 1023px) {
   #intro-txt {
     margin-top: 1.5rem;
@@ -274,25 +268,17 @@ button:focus {
   outline: none;
 }
 
-/*TODO - new*/
 #mc_embed_signup_scroll {
   display: flex;
 }
 
-/*TODO - new*/
 .mc-field-group {
-  /*margin-right: 4px;*/
   display: inline-flex;
 }
 
 .clear {
   display: inline-flex;
 }
-
-/*TODO - new*/
-/*#subscribe-button {*/
-  /*float: left;*/
-/*}*/
 
 #mce-EMAIL {
   background-color: rgba(255,255,255,0.9);
@@ -352,7 +338,6 @@ button:focus {
   margin: auto;
 }
 
-
 /*about*/
 #about-section {
   margin-top: 10rem;
@@ -360,7 +345,6 @@ button:focus {
 
 #social-inno-h4 {
   font-size: 16px;
-  /*font-weight: 500;*/
 }
 
 /*speakers*/
@@ -377,7 +361,6 @@ button:focus {
 
 .speaker {
   width: fit-content;
-  /*background-color: #6c757d;*/
   margin: 3rem 0.5rem 3rem 0.5rem;
 }
 
@@ -447,8 +430,12 @@ button:focus {
 .gallery-container  {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+.gallery-container a {
+  margin: 0 3rem 4rem 3rem;
 }
 
 .sponsor-image {
@@ -458,7 +445,7 @@ button:focus {
 }
 
 .sponsor-image img {
-  width: 20rem;
+  width: 18rem;
   height: auto;
   align-self: flex-end;
 }
@@ -475,7 +462,7 @@ button:focus {
 
 /*partners*/
 .partner-image img {
-  width: 20rem;
+  width: 14rem;
   height: auto;
 
 }
@@ -650,8 +637,6 @@ button:focus {
 .btn:hover {
   background-color: #3FE7B3;
   border-radius: 0;
-  /*border-width: 0;*/
-  /*padding: 11px;*/
   border-color: #3FE7B3;
   color: white;
   box-shadow: 0 2px 13px #b4b4b4;
@@ -693,7 +678,6 @@ button:focus {
 .textbox-container {
   margin-top: 4rem;
   padding: 0;
-
 }
 
 .h4-decor {
@@ -783,7 +767,6 @@ button:focus {
 }
 
 #address {
-  /*TODO - new*/
   margin: 0;
 }
 
